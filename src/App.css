@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+.form {
+  background-color: #161b22;
+  color: #34383c;
+}
+
 body {
   background-color: #0e1117;
   color: #c8d1d9;

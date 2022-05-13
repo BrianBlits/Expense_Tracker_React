@@ -26,7 +26,7 @@ const onSubmit = e => {
         <form onSubmit={onSubmit}>
             <div className="form-control">
                 <label htmlFor="text">Text</label>
-                <input type="text" value={text} onChange={(e) => setText(e.target.value)}
+                <input type="text" className="form" value={text} onChange={(e) => setText(e.target.value)}
                 placeholder="Enter text..." />
             </div>
             <div className="form-control">
@@ -34,7 +34,7 @@ const onSubmit = e => {
                     >Amount <br />
                     (negative - expense, positive - income)</label
                 >
-                <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
+                <input type="number" className="form" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
             </div>
             <button className="btn">Add transaction</button>
         </form>
